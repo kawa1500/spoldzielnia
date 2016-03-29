@@ -28,14 +28,44 @@
     
     <definition name="userHome" extends="base.definition">
         <put-attribute name="title" value="Association" />
-        <put-attribute name="menu" value="/WEB-INF/views/menu/userPanel.jsp" />
+        <put-attribute name="menu" value="/WEB-INF/views/menu/user/home.jsp" />
         <put-attribute name="body" value="/WEB-INF/views/body/home.jsp" />
     </definition>
     
     <definition name="adminHome" extends="base.definition">
         <put-attribute name="title" value="Association" />
-        <put-attribute name="menu" value="/WEB-INF/views/menu/adminPanel.jsp" />
+        <put-attribute name="menu" value="/WEB-INF/views/menu/admin/home.jsp" />
+        <put-attribute name="body" value="/WEB-INF/views/body/home.jsp" />
+    </definition>
+    
+    <definition name="adminProfile" extends="base.definition">
+        <put-attribute name="title" value="Profile" />
+        <put-attribute name="menu" value="/WEB-INF/views/menu/admin/profile.jsp" />
+        <put-attribute name="body" value="/WEB-INF/views/body/profile.jsp" />
+    </definition>
+    
+    <definition name="adminAbout" extends="base.definition">
+        <put-attribute name="title" value="About us" />
+        <put-attribute name="menu" value="/WEB-INF/views/menu/admin/about.jsp" />
         <put-attribute name="body" value="/WEB-INF/views/body/home.jsp" />
     </definition>
  
+ 	<definition name="adminBuilding" extends="base.definition">
+        <put-attribute name="title" value="Building" />
+        <put-attribute name="menu" value="/WEB-INF/views/menu/admin/building.jsp" />
+        <put-attribute name="body" value="/WEB-INF/views/body/home.jsp" />
+    </definition>
+    
+    <definition name="adminRenters" extends="base.definition">
+        <put-attribute name="title" value="Renters" />
+        <put-attribute name="menu" value="/WEB-INF/views/menu/admin/renters.jsp" />
+        <put-attribute name="body" value="/WEB-INF/views/body/users.jsp" />
+    </definition>
+    
+     <definition name="user" extends="base.definition">
+        <put-attribute name="title" value="Renters" />
+        <put-attribute name="menu" value="/WEB-INF/views/menu/admin/renters.jsp" />
+        <put-attribute name="body" value="/WEB-INF/views/body/user.jsp" />
+    </definition>
+    
 </tiles-definitions>

@@ -1,0 +1,47 @@
+
+.card {
+  position: relative;
+  background: #ffffff;
+  border-radius: 5px;
+  -webkit-transition: .3s ease;
+}
+
+.card .input-container {
+	float:left;
+  width:20%;
+  position: relative;
+  padding: 20px 0 20px 0;
+  box-sizing: border-box;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.card .input-container .user h2{margin-bottom: 0;}
+.card .input-container .user h2 a{color: #444444;font-size: 12px;}
+.card .input-container .user span{color: #aaaaaa;
+display: block;
+font-family: georgia;
+font-size: 11px;
+margin-bottom: 5px;}
+.card .input-container .user span a{color: #aaaaaa;}
+.card .input-container .user span a:hover{color: #000;}
+.card .input-container .user p{color: #555555;}
+
+.button {
+	float:center;
+  width:80%;
+  position: relative;
+		background: #64ABD1;
+		line-height: 1.8em;
+		font-size: 1em;
+		color: #FFF;
+		weight: 80%;
+}
+
+.buttonAdd {
+	padding: 20px 0 20px 0;
+		background: #64ABD1;
+		line-height: 1.8em;
+		font-size: 1em;
+		color: #FFF;
+		weight: 80%;
+}
